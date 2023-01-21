@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section class="section">
+        <div class="container container-alt ">
+      <h1>П'ятифакторна модель Альтмана</h1>
+
+      <form class="form" action="#" method="#" id="form">
+     
+        <label class="form-label">
+          <span class="form-input-text">Балансовий прибуток = </span>
+          <span class="input-wrapper">
+            <input
+              type="number"
+              class="form-input"
+              required
+              name="BPr"
+              id="first"
+            />
+          </span>
+        </label>
+        <label class="form-label">
+          <span class="form-input-text"> Загальна вартість активів = </span>
+          <span class="input-wrapper">
+            <input
+              type="number"
+              class="form-input"
+              required
+              name="VarAktuv"
+              id="second"
+            />
+          </span>
+        </label>
+         <label class="form-label">
+          <span class="form-input-text"> Виручка від реалізації продукції = </span>
+          <span class="input-wrapper">
+            <input
+              type="number"
+              class="form-input"
+              required
+              name="HusVur"
+              id="third"
+            />
+          </span>
+        </label>
+           </label>
+         <label class="form-label">
+          <span class="form-input-text"> Власний капітал = </span>
+          <span class="input-wrapper">
+            <input
+              type="number"
+              class="form-input"
+              required
+              name="VlasKap"
+              id="fourth"
+            />
+          </span>
+        </label>
+           </label>
+         <label class="form-label">
+          <span class="form-input-text">Короткострокові зобов'язання = </span>
+          <span class="input-wrapper">
+            <input
+              type="number"
+              class="form-input"
+              required
+              name="KorZob"
+              id="fifth"
+            />
+          </span>
+        </label>
+           </label>
+         <label class="form-label">
+          <span class="form-input-text">Довгострокові зобов'язання = </span>
+          <span class="input-wrapper">
+            <input
+              type="number"
+              class="form-input"
+              required
+              name="DovgoZob"
+              id="sixth"
+            />
+          </span>
+        </label>
+           </label>
+         <label class="form-label">
+          <span class="form-input-text"> нерозподілений прибуток = </span>
+          <span class="input-wrapper">
+            <input
+              type="number"
+              class="form-input"
+              required
+              name="NerozPr"
+              id="seventh"
+            />
+          </span>
+        </label>
+        <button type="submit" class="button">Розрахунок</button>
+         <h2 class="answer-text">
+              Індекс (моделі) Альтмана Z становить
+              <div id="Za"></div>
+              <div id="ans"></div>
+            </h2>
+      </form>
+            </div>
+            </section>
+    </main>
+     <script src="./first-script.js"></script>
+  </body>
+</html>

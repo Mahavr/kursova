@@ -1,0 +1,130 @@
+:root {
+  --text-family: "Roboto", sans-serif;
+  --logo-family: "Raleway", sans-serif;
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+ul,
+ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+li {
+  list-style: none;
+}
+img {
+  display: block;
+}
+body {
+  color: var(--primary-text-color);
+  font-family: var(--text-family);
+  letter-spacing: 0.03em;
+}
+.header {
+  padding-bottom: 94px;
+  padding-top: 94px;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  padding-bottom: 94px;
+  padding-top: 94px;
+  display: flex;
+  justify-content: space-around;
+}
+.container-alt {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.links {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.link {
+  font-family: "Roboto";
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  color: black;
+  padding: 15px;
+  border: 3px solid black;
+  transition: all var(--transition);
+}
+.link:hover,
+link:focus {
+  color: #8080ff;
+  border: 3px dotted #ccccff;
+}
+/* ------1------ */
+.section {
+  padding-bottom: 94px;
+  padding-top: 30px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  gap: 15px;
+  align-items: center;
+  border: 3px solid #004d00;
+  padding: 20px 0px;
+  background-color:  #e6ffe6;
+}
+
+
+.answer-text {
+  font-family: "Roboto";
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  color: #00e600;
+}
+.button {
+  cursor: pointer;
+
+  background-color: #b3ffb3;
+  color: #004d00;
+  border: none;
+
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-align: center;
+
+  justify-content: center;
+
+  width: 216px;
+  height: 50px;
+  border-radius: 4px;
+
+  transition: all var(--transition);
+}
+.button:hover,
+.button:focus {
+  background-color: #80ff80;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
